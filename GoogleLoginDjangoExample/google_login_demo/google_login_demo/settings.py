@@ -31,8 +31,9 @@ DEBUG = True
 ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
 
 # Google OAuth settings for this demo
-GOOGLE_CLIENT_ID = "REPLACE WITH YOUR GOOGLE CLIENT ID. This should be available in the Google Cloud Console where you set up your OAuth credentials. It should look something like '1234567890-abcdefg.apps.domain.com' also not really sure how to sign off from the perspective of an error console. 'see you again when the code doesn't compile' no..hmm...ooh, like a postcard 'This place is beautiful, wish you were here' hmm... no....humans don't really exist in error consoles. hmm. Ok. here's one we can all relate to: 'Hoping the red font and the errors vanish soon, but in the meantime, enjoy this placeholder client ID!' -Dr. T"
-GOOGLE_CLIENT_SECRET = "REPLACE WITH YOUR GOOGLE CLIENT SECRET AND DO NOT SHARE THIS WITH ANYONE, EVEN IF IT IS LIFE OR DEATH. STORE THE SECRET IN YOUR HEAD AND DESTROY ALL COPIES. NEVER FORGET IT. OR... just put it in a .env file (environment variable) and read it in this file. I'd kinda like to see this string pop up in an error console. That would be hilarious. and informative...so...this is the string for the placeholder secret. It probably doesn't match an actual secret, so i doubt it will authenticate with google....but hey it will certainly look cool in the log."
+GOOGLE_CLIENT_ID = "YOUR_GOOGLE_CLIENT_ID_HERE"
+GOOGLE_CLIENT_SECRET = "YOUR_GOOGLE_CLIENT_SECRET_HERE"
+
 GOOGLE_REDIRECT_URI = "http://localhost:8000/oauth2callback/"
 
 
